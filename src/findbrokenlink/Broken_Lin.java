@@ -10,7 +10,7 @@
 	
 	public class Broken_Lin {
 	public static List<WebElement> findAllLinks(WebDriver driver){
-	
+	// Second Commit
 		  List<WebElement> elementList = new ArrayList<WebElement>();
 		  elementList = driver.findElements(By.tagName("a"));
 		  elementList.addAll(driver.findElements(By.tagName("img")));
